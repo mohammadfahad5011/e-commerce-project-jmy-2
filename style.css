@@ -123,6 +123,26 @@ a {
   margin-left: 1rem;
 }
 
+.icon-box a .fa-shopping-cart {
+  position: relative;
+}
+
+.icon-box a .fa-shopping-cart span {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: #3cb878;
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  top: -13px;
+  right: -11px;
+  color: #fff;
+  font-weight: 500;
+}
+
 .header .navbar-brand span {
   color: #3cb878;
 }
@@ -398,7 +418,6 @@ a {
 #contact-section .left-box {
   position: relative;
   z-index: 1;
-  border: 1px solid black;
   padding: 3rem 0;
 }
 #contact-section .text-area {
@@ -439,7 +458,6 @@ a {
 }
 
 #contact-section .right-box {
-  border: 1px solid black;
   padding: 3rem 0;
 }
 
