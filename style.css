@@ -19,7 +19,6 @@
   width: 100%;
   max-width: 1780px;
   margin: 0 auto;
-  border: 2px solid rgb(255, 251, 0);
 }
 .footer-container {
   width: 100%;
@@ -78,7 +77,6 @@ a {
 -----Main-Navbar-------
 ===========================*/
 .navbar {
-  border: 2px solid #1100ff;
   position: relative;
   z-index: 9999;
 }
@@ -117,12 +115,12 @@ a {
 }
 
 .icon-box a i {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #333333;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .header .navbar-brand span {
